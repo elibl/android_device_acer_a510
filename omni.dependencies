@@ -3,13 +3,13 @@
 		"remote":	"github",
 		"repository":	"elibl/android_kernel_acer_t30",
 		"target_path":	"kernel/acer/t30",
-		"revision":	"kitkat"
+		"revision":	"twrp"
 	},
 	{
 		"remote":	"github",
 		"repository":	"elibl/android_device_acer_t30-common",
 		"target_path":	"device/acer/t30-common",
-		"revision":	"kitkat"
+		"revision":	"twrp"
 	},
 	{
 		"remote":	"github",
