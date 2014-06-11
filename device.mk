@@ -15,10 +15,13 @@ PRODUCT_BOOTLOADER := picasso_m
 # lvm files
 PRODUCT_COPY_FILES += \
     device/acer/a510/prebuilt/ramdisk/init.picasso_m.rc:root/init.picasso_m.rc \
+    device/acer/a510/prebuilt/ramdisk/init.recovery.picasso_m.rc:root/init.recovery.picasso_m.rc \
     device/acer/a510/prebuilt/ramdisk/fstab.acer:root/fstab.acer \
     device/acer/a510/prebuilt/ramdisk/fstab.acer:root/fstab.picasso_m \
+    device/acer/a510/prebuilt/ramdisk/twrp.fstab:recovery/root/etc/twrp.fstab \
     device/acer/a510/prebuilt/ramdisk/lvm/etc/lvm.conf:root/lvm/etc/lvm.conf \
-    device/acer/a510/prebuilt/ramdisk/lvm/sbin/lvm:root/lvm/sbin/lvm
+    device/acer/a510/prebuilt/ramdisk/lvm/sbin/lvm:root/lvm/sbin/lvm \
+    device/acer/a510/prebuilt/ramdisk/lvm/sbin/setuplvmsystem.sh:recovery/root/lvm/sbin/setuplvmsystem.sh
 
 # Inherit t30-common
 $(call inherit-product, device/acer/t30-common/device_base.mk)
