@@ -1,9 +1,9 @@
 [
 	{
-		"remote":	"cm",
-		"repository":	"CyanogenMod/android_kernel_acer_t30",
+		"remote":	"github",
+		"repository":	"elibl/android_kernel_acer_t30",
 		"target_path":	"kernel/acer/t30",
-		"revision":	"cm-11.0"
+		"revision":	"kitkat"
 	},
 	{
 		"remote":	"github",
